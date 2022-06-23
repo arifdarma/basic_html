@@ -12,7 +12,7 @@ footer>div>div>div{
 .carousel-description{
     width: 100%;
     position: absolute;
-    top: 70%;
+    top: 10%;
     text-align: center;
     background-color: rgba(255,255,255,0.5);
 }
@@ -24,6 +24,7 @@ footer>div>div>div{
     margin: 0 auto;
     padding: 1rem;
     font-weight: bold;
+    font-size: 50%;
     background-color: rgba(255,255,255,0.7);
 }
 
@@ -34,6 +35,75 @@ footer>div>div>div{
     padding: 0.5rem 1.5rem;
 }
 
+.gray-text{
+    color: #656565;
+}
+
 .carousel-btn>a {
     text-decoration: none;
+}
+
+
+.icon__card{
+    height: 150px;
+    align-items: center;
+    display: flex;
+}
+
+#trophyCard{
+    background-color: #e8533f;
+}
+
+#pictCard{
+    background-color: #d866b2;
+}
+
+#desktopCard{
+    background-color: #6dc569;
+}
+
+#globeCard{
+    background-color: #40aef0;
+}
+
+.icon__card>i{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon__card>i::before{
+    font-size: 100px;
+    color: white;
+}
+
+@media screen and (min-width: 650px) {
+    .carousel-description{
+        top: 45%;
+    }
+
+    .carousel-text{
+        text-align: center;
+        max-width: 60%;
+        width: 40%;
+        margin: 0 auto;
+        padding: 1rem;
+        font-weight: bold;
+        font-size: 100%;
+        background-color: rgba(255,255,255,0.7);
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .carousel-description{
+        top: 70%;
+    }
+}
+
+.divider, .bg__courses {
+    background-color: #efefef;
+}
+
+.bg__courses{
+    max-width: 32%;
 }
