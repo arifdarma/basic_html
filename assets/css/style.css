@@ -1,2 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
-@import url('font-awesome.css');  
+@import url('font-awesome.css');
+
+footer{
+    background-color: #047de8;
+}
+
+footer>div>div>div{
+    color: white;
+}
