@@ -7,7 +7,6 @@ Make a website portfolio using HTML, CSS, and Gitlab
 - Commit Frequently
 - use best practice HTML and CSS, JS Convention as you have already learn
 - lastly make it responsive website!
-- [demo](https://web-porto-sealabs.herokuapp.com/)
 
 ## Notes
 - You can use images,fonts,starter css in the assets folder
