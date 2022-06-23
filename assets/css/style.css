@@ -8,3 +8,32 @@ footer{
 footer>div>div>div{
     color: white;
 }
+
+.carousel-description{
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.carousel-text{
+    text-align: center;
+    max-width: 60%;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.carousel-btn {
+    color: white;
+    border: none;
+    background-color: #328cca;
+    padding: 0.5rem 1.5rem;
+}
+
+.carousel-btn>a {
+    text-decoration: none;
+}
