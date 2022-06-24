@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700');
+@import "style-tracker.css";
 @import url('font-awesome.css');
 
 footer{
@@ -168,4 +169,26 @@ footer>div>div>div{
     aria-valuemin:0;
     aria-valuemax:100;
     background-color: #438aca;
+}
+
+/*Tracker==========================*/
+.tracker{
+    width: 400px;
+    font-family: "JetBrains Mono";
+    border-radius: 5% 15%;
+    padding: 2%;
+}
+
+.items__tracker{
+    margin: 0 auto;
+    width: 100%;
+}
+
+#btn_tracker{
+    width: 100%;
+    border-radius: 5%;
+    background-color: #2d3146;
+    border: none;
+    color: white;
+    padding: 2%;
 }
