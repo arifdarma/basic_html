@@ -120,3 +120,12 @@ footer>div>div>div{
 .pricing__head{
     background-color: #f9f9f9;
 }
+
+/*ABOUT US=================================*/
+.home__flag{
+    background-color: #047de8;
+}
+
+.service__img{
+    width: 100%;
+}
